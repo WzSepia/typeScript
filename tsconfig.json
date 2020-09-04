@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"outFile": "./built/tsc.js",
+		"sourceMap": true
+	},
+	"files": [
+		"index.ts",
+		"greeter.ts"
+	],
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		//"node_modules",
+		//"**/*.spec.ts"
+	]
+}
