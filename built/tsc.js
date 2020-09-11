@@ -1,7 +1,3 @@
-var name = "Gene";
-var age = 37;
-var sentence = "Hello, my name is " + name + ".\nI'll be " + (age + 1) + " years old next month.";
-document.body.innerHTML = sentence;
 var Student = (function () {
     function Student(firstName, middleInitial, lastName) {
         this.firstName = firstName;
@@ -16,4 +12,7 @@ function greeter(person) {
 }
 var user = new Student("Jane", "M.", "User");
 document.body.innerHTML = greeter(user);
+var name = "Gene";
+var age = 37;
+var sentence = "Hello, my name is " + name + ".\nI'll be " + (age + 1) + " years old next month.";
 //# sourceMappingURL=tsc.js.map
